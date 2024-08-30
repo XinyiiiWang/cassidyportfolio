@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
